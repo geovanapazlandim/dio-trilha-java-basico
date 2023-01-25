@@ -4,8 +4,9 @@ public class TiposVariaveis {
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
-        short numeroCurto2 = (short) numeroNormal;
+        short numeroCurto2 = (short) numeroNormal; //isso de converter a força não é uma boa prática
 
-        
+        System.out.print(salarioMinimo);
+        System.out.println(numeroCurto2);
     }
 }
