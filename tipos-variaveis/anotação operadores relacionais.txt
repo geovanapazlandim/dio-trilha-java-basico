@@ -1,0 +1,7 @@
+Operadores relacionais
+== para verificar se há igualdade
+!= utilizado para verificar se dois valores são diferentes
+> Quando desejamos verificar se uma variavel é maior que o outro
+>= quando desejamos verificar se uma variável é maior ou igual a outra
+< quando desejamos verificar se uma variável é menor que a outra
+<= quando desejamos verificar se uma variável é menor ou igual a outra
