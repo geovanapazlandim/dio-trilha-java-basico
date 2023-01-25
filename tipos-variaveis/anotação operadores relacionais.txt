@@ -1,10 +1,9 @@
-Operadores relacionais
-== para verificar se há igualdade
-!= utilizado para verificar se dois valores são diferentes
-> Quando desejamos verificar se uma variavel é maior que o outro
->= quando desejamos verificar se uma variável é maior ou igual a outra
-< quando desejamos verificar se uma variável é menor que a outra
-<= quando desejamos verificar se uma variável é menor ou igual a outra
+Operadores Lógicos
+Permitem criar expressões lógicas maiores a partir da junção de duas ou mais expressões
 
-É possível comparar além de números Strings também, para isso é necessário utilizar as classes de texto.
-Neste caso, se desejamos comparar o conteúdo do objeto usamos objeto1.equals(objeto2)
+(tabela verdade)
+
+&& -> E.
+|| -> OU.
+
+Pode ter uma variavel booleana ou uma expresão relacional
