@@ -1,0 +1,28 @@
+Todas as ações das aplicações são consideradas métodos.
+Uma CLASSE é composta de atributos e métodos (características e ações).
+Atributos: variáveis de diferentes tipos e valores.
+Métodos: correspondem a funções ou sub-rotinas disponíveis dentro de nossas classes.
+
+Exemplo: Classe carro
+atributos: cor, numero do chassi, ano, modelo, etc.
+métodos: acelerar, frear, dar partida, desligar.
+
+Critério de nomeação de métodos:
+- Deve ser nomeado como verbo (Exemplo: acelerar, frear, processar, concluir, etc.)
+- Seguir o padrão camelCase 
+ um método pode ter apenas uma responsabilidade.
+ exemplo de como nomear métodos: 
+ somar(int n1, int n2){}
+ abrirConexao()
+ findById(int id){} -> método da linguagem, procurar pelo id
+Critério de definição de métodos:
+1 - qual a proposta principal do método? tem que saber qual a finalidade do método e não simplesmente são criando.
+2 - qual o tipo de retorno esperado após executar o método? tem que avaliar se vai retornar algum método ou não
+OBS: Caso o método não retorne nenhum valor, ele deve ser representado pela palavra-chave void.S
+3 - quais os parâmetros serão necessários para execução do do método?
+4 - o método possui o risco de apresentar alguma excessão?
+5 - Qual a visibilidade do método?(será necessário que o método seja visível a toda aplicação? Somente em mesmos pacotes? através de herança ou somente a nível da mesma classe?)
+
+para declarar um método: informar a visibilidade, o tipo de resposta que vai retornar, o nome do método que será o que ele vai fazer, passa o parâmetro e mesmo se não tiver tem que colocar parênteses
+abre o corpo do método e no final, depois ddo código, sempre que declara o tipo tem que colocar o return que vai mostrar o valor, se o método for do tipo void não precisa.
+quando tem excessão no método colocar: throws Exception {}.
